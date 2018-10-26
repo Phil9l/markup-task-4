@@ -3,7 +3,457 @@
 <head>
     <meta charset="utf-8">
     <title>Задача «Про котиков»</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+    <input type="checkbox" class="list-view" id="list-view">
+    <header>
+        <label for="list-view" class="hamburger">☰</label>
+    </header>
+    <main>
+        <div class="cat-info">
+            <img alt="cat" src="images/01.jpg">
+            <div class="description">
+                <h2><a href="#">Nicolas</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                            <li>Friendly</li>
+                        </ul>
+                    </li>
+                    <li>Age: 3 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Nulla facilisis, est vel luctus cursus, metus sapien finibus mi, quis
+                        ultrices sem ante non orci. Nunc sapien nisi, euismod et egestas id,
+                        semper a purus. Nunc vitae tellus sed metus sodales efficitur quis in
+                        ipsum. Curabitur posuere sed enim vitae ultrices. Proin dapibus arcu
+                        sed blandit placerat. In vel tempor ex. In hac habitasse platea dictumst.
+                        Donec lacinia ipsum at mauris placerat eleifend.
+                    </p>
+                    <p>Etiam vel arcu et mauris dapibus lobortis eget nec ipsum. In hac habitasse
+                        platea dictumst. Quisque ornare sagittis rhoncus. Praesent tempor tempor
+                        justo, in sollicitudin tortor euismod quis. Etiam blandit nibh a dui
+                        ullamcorper ornare. Integer efficitur enim vitae neque rutrum convallis.
+                        Quisque commodo ex nec tempus tincidunt. Proin eu lacus a quam porttitor
+                        ultricies vel non odio.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/02.jpg">
+            <div class="description">
+                <h2><a href="#">John</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                            <li>Sensitive</li>
+                        </ul>
+                    </li>
+                    <li>Age: 3 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On the market</li>
+                </ul>
+                <div>
+                    <p>
+                        Nulla facilisis, est vel luctus cursus, metus sapien finibus mi, quis
+                        ultrices sem ante non orci. Nunc sapien nisi, euismod et egestas id,
+                        semper a purus. Nunc vitae tellus sed metus sodales efficitur quis in
+                        ipsum. Curabitur posuere sed enim vitae ultrices. Proin dapibus arcu sed
+                        blandit placerat. In vel tempor ex. In hac habitasse platea dictumst.
+                        Donec lacinia ipsum at mauris placerat eleifend.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/03.jpg">
+            <div class="description">
+                <h2><a href="#">Russel</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 4 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+                        interdum mi. Nam accumsan luctus accumsan. Nullam quis sem eget ligula
+                        dignissim semper in vel odio. Nullam vitae sapien posuere, fringilla
+                        velit in, convallis massa. Nam pharetra, lectus eu mattis tristique,
+                        ligula lorem tristique tortor, a maximus dolor nulla et odio. Donec vel
+                        vestibulum tortor. Aenean efficitur sodales enim a volutpat. Sed
+                        efficitur mollis mi, vitae mollis tellus cursus in.
+                    </p>
+                    <p>
+                        Facilisis, est vel luctus cursus, metus sapien finibus mi, quis ultrices
+                        sem ante non orci. Nunc sapien nisi, euismod et egestas id, semper a
+                        purus. Nunc vitae tellus sed metus sodales efficitur quis in ipsum.
+                        Curabitur posuere sed enim vitae ultrices. Proin dapibus arcu sed blandit
+                        placerat. In vel tempor ex. In hac habitasse platea dictumst. Donec
+                        lacinia ipsum at mauris placerat eleifend.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/04.jpg">
+            <div class="description">
+                <h2><a href="#">John</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                            <li>Talented</li>
+                        </ul>
+                    </li>
+                    <li>Age: 7 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On the market</li>
+                </ul>
+                <div>
+                    <p>
+                        Morbi id semper enim. Duis facilisis semper dui, ut iaculis ex
+                        scelerisque eget. Duis dui diam, placerat et cursus et, elementum ut
+                        orci. Sed augue ipsum, fermentum quis auctor et, tincidunt eget purus.
+                        Nulla facilisi. Pellentesque a dolor a tortor tincidunt dignissim eget
+                        nec arcu. Proin mollis ornare varius. Nunc tincidunt tellus vitae justo
+                        dapibus, et faucibus arcu mollis. Mauris malesuada nibh tincidunt velit
+                        viverra hendrerit. Maecenas non dui id nibh volutpat dignissim. Vivamus
+                        ornare lacinia ipsum, sed aliquam turpis tempus vitae. Quisque euismod
+                        est tortor, ut elementum magna tristique non.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mi.
+                        Nam luctus accumsan. Nullam quis sem eget ligula dignissim semper in vel
+                        odio. Nullam vitae sapien posuere, fringilla velit in, convallis massa.
+                        Nam pharetra, lectus eu mattis tristique, ligula lorem tristique tortor,
+                        a maximus dolor nulla et odio. Donec vel vestibulum tortor. Aenean
+                        efficitur sodales enim a volutpat. Sed efficitur mollis mi, vitae mollis
+                        tellus cursus in.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/05.jpg">
+            <div class="description">
+                <h2>
+                    <a href="#">
+                        Barnaby Marmaduke Aloysius Benjy Cobweb Dartagnan Egbert Felix
+                        Gaspar Humbert Ignatius Jayden Kasper Leroy Maximilian Neddy
+                        Obiajulu Pepin Quilliam Rosencrantz Sexton Teddy Upwood Vivatma
+                        Wayland Xylon Yardley Zachary Usansky
+                    </a>
+                </h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                            <li>Reckless</li>
+                        </ul>
+                    </li>
+                    <li>Age: 2 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+                        interdum mi. Nam accumsan luctus accumsan. Nullam quis sem eget ligula
+                        dignissim semper in vel odio. Nullam vitae sapien posuere, fringilla
+                        velit in, convallis massa. Nam pharetra, lectus eu mattis tristique,
+                        ligula lorem tristique tortor, a maximus dolor nulla et odio. Donec vel
+                        vestibulum tortor. Aenean efficitur sodales enim a volutpat. Sed
+                        efficitur mollis mi, vitae mollis tellus cursus in.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/06.jpg">
+            <div class="description">
+                <h2><a href="#">Matthew</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 9 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Praesent tortor est, tempus cursus elit a, pellentesque posuere lorem.
+                        Mauris ornare, purus ac pellentesque vestibulum, risus lacus posuere
+                        nunc, elementum pellentesque ligula arcu faucibus eros. In tempus iaculis
+                        justo id aliquam. Vivamus tempor vulputate dui sit amet luctus. Proin
+                        viverra vulputate nulla et pellentesque. Quisque dignissim et ipsum
+                        venenatis porta. Ut egestas ligula vel ornare commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/07.png">
+            <div class="description">
+                <h2><a href="#">Willie</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 8 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Praesent tortor est, tempus cursus elit a, pellentesque posuere lorem.
+                        Mauris ornare, purus ac pellentesque vestibulum, risus lacus posuere
+                        nunc, elementum pellentesque ligula arcu faucibus eros. In tempus iaculis
+                        justo id aliquam. Vivamus tempor vulputate dui sit amet luctus. Proin
+                        viverra vulputate nulla et pellentesque. Quisque dignissim et ipsum
+                        venenatis porta. Ut egestas ligula vel ornare commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/08.png">
+            <div class="description">
+                <h2><a href="#">Linda</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                            <li>Greedy</li>
+                            <li>Sly</li>
+                            <li>Curious</li>
+                            <li>Naive</li>
+                        </ul>
+                    </li>
+                    <li>Age: 4 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Nulla facilisis, est vel luctus cursus, metus sapien finibus mi, quis
+                        ultrices sem ante non orci. Nunc sapien nisi, euismod et egestas id,
+                        semper a purus. Nunc vitae tellus sed metus sodales efficitur quis in
+                        ipsum. Curabitur posuere sed enim vitae ultrices. Proin dapibus arcu sed
+                        blandit placerat. In vel tempor ex. In hac habitasse platea dictumst.
+                        Donec lacinia ipsum at mauris placerat eleifend.
+                    </p>
+                    <p>
+                        Tempor leo, a viverra sem. Nulla augue orci, sollicitudin sit amet
+                        efficitur sed, venenatis in arcu. Vestibulum in dui posuere lectus
+                        accumsan imperdiet. Nulla in volutpat tortor, ut ultricies dolor. Nunc
+                        sit amet pellentesque metus, eget scelerisque nunc. Donec ornare ac felis
+                        finibus mollis. In sed condimentum dui. Fusce arcu ligula, ultrices non
+                        cursus sit amet, ultricies in risus. Vestibulum maximus, felis eu
+                        fermentum dictum, nulla nulla faucibus ipsum, quis commodo mauris neque a
+                        purus. Praesent pulvinar sapien sed dui interdum, pellentesque interdum
+                        quam sodales.
+                    </p>
+                    <p>
+                        Curabitur ut tempor leo, a viverra sem. Nulla augue nulla nulla faucibus
+                        orci, sollicitudin sit amet efficitur sed, venenatis in arcu. Vestibulum
+                        in dui posuere lectus accumsan imperdiet. Nulla in volutpat tortor, ut
+                        ultricies dolor. Nunc sit amet pellentesque metus, eget scelerisque nunc.
+                        Donec ornare ac felis finibus mollis. In sed condimentum dui. Fusce arcu
+                        ligula, ultrices non cursus sit amet, ultricies in risus. Vestibulum
+                        maximus, felis eu fermentum dictum, nulla nulla faucibus ipsum, quis
+                        commodo mauris neque a purus. Praesent pulvinar sapien sed dui interdum,
+                        pellentesque interdum quam sodales.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/09.png">
+            <div class="description">
+                <h2><a href="#">Kimberly</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 7 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Etiam vel arcu et mauris dapibus lobortis eget nec ipsum. In hac
+                        habitasse platea dictumst. Quisque ornare sagittis rhoncus. Praesent
+                        tempor tempor justo, in sollicitudin tortor euismod quis. Etiam blandit
+                        nibh a dui ullamcorper ornare. Integer efficitur enim vitae neque rutrum
+                        convallis. Quisque commodo ex nec tempus tincidunt. Proin eu lacus a quam
+                        porttitor ultricies vel non odio.
+                    </p>
+                    <p>
+                        Curabitur nec scelerisque elit magnis dis parturient montes.
+                        Quisque at dapibus orci, eget aliquam sapien. Orci varius natoque
+                        penatibus et magnis dis parturient montes, nascetur ridiculus mus. In non
+                        scelerisque leo. In consectetur viverra lectus nec ultricies. Praesent
+                        fermentum fringilla tellus, et pharetra nunc facilisis ut. Orci varius
+                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Mauris ornare ex a varius egestas. Donec scelerisque lectus vitae
+                        velit facilisis, vitae congue tellus sodales. Aliquam erat volutpat.
+                        Vivamus dictum mollis finibus.
+                    </p>
+                    <p>
+                        Praesent tortor est, tempus cursus
+                        elit a, pellentesque posuere lorem. Mauris ornare, purus ac pellentesque
+                        vestibulum, risus lacus posuere nunc, elementum pellentesque ligula arcu
+                        faucibus eros. In tempus iaculis justo id aliquam. Vivamus tempor
+                        vulputate dui sit amet luctus. Proin viverra vulputate nulla et
+                        pellentesque. Quisque dignissim et ipsum venenatis porta. Ut egestas
+                        ligula vel ornare commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/10.png">
+            <div class="description">
+                <h2><a href="#">Richard</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 7 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+                        interdum mi. Nam accumsan luctus accumsan. Nullam quis sem eget ligula
+                        dignissim semper in vel odio. Nullam vitae sapien posuere, fringilla
+                        velit in, convallis massa. Nam pharetra, lectus eu mattis tristique,
+                        ligula lorem tristique tortor, a maximus dolor nulla et odio. Donec vel
+                        vestibulum tortor. Aenean efficitur sodales enim a volutpat. Sed
+                        efficitur mollis mi, vitae mollis tellus cursus in.
+                    </p>
+                    <p>
+                        Lorem ipsum tortor, a maximus dolor nulla ligula lorem tristique.
+                        dolor sit amet, consectetur adipiscing elit. Phasellus a interdum mi. Nam
+                        accumsan luctus accumsan. Nullam quis sem eget ligula dignissim semper in
+                        vel odio. Nullam vitae sapien posuere, fringilla velit in, convallis
+                        massa. Nam pharetra, lectus eu mattis tristique, ligula lorem tristique
+                        tortor, a maximus dolor nulla et odio. Donec vel vestibulum tortor.
+                        Aenean efficitur sodales enim a volutpat. Sed efficitur mollis mi, vitae
+                        mollis tellus cursus in.
+                    </p>
+                    <p>
+                        Praesent tortor est, tempus cursus elit a, vestibulum, risus lacus posuere
+                        pellentesque posuere lorem. Mauris ornare, purus ac pellentesque
+                        vestibulum, risus lacus posuere nunc, elementum pellentesque ligula arcu
+                        faucibus eros. In tempus iaculis justo id aliquam. Vivamus tempor
+                        vulputate dui sit amet luctus. Proin viverra vulputate nulla et
+                        pellentesque. Quisque dignissim et ipsum venenatis porta. Ut egestas
+                        ligula vel ornare commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-info">
+            <img alt="cat" src="images/11.png">
+            <div class="description">
+                <h2><a href="#">Michael</a></h2>
+                <ul>
+                    <li>
+                        Categories:
+                        <ul class="categories">
+                            <li>Grumpy</li>
+                        </ul>
+                    </li>
+                    <li>Age: 7 years</li>
+                    <li>Species: Felis catus</li>
+                    <li>Diseases: No</li>
+                    <li>Status: On sale</li>
+                </ul>
+                <div>
+                    <p>
+                        Nulla commodo et erat at facilisis. Aliquam non magna velit. Etiam sit
+                        amet ex nisi. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Morbi a lacinia lectus. Pellentesque sit amet massa vehicula,
+                        porta diam in, sodales ex. Donec justo leo, fermentum vitae ipsum a,
+                        hendrerit laoreet urna. Ut tincidunt enim eget semper luctus. Proin
+                        sollicitudin enim id nisi rhoncus, nec varius quam pulvinar. Curabitur
+                        eleifend placerat enim quis rhoncus.
+                    </p>
+                    <p>
+                        Etiam vel arcu et mauris tempor tempor justo commodo et erat at.
+                        dapibus lobortis eget nec ipsum. In hac habitasse platea dictumst.
+                        Quisque ornare sagittis rhoncus. Praesent tempor tempor justo, in
+                        sollicitudin tortor euismod quis. Etiam blandit nibh a dui ullamcorper
+                        ornare. Integer efficitur enim vitae neque rutrum convallis. Quisque
+                        commodo ex nec tempus tincidunt. Proin eu lacus a quam porttitor
+                        ultricies vel non odio.
+                    </p>
+                    <p>
+                        Nulla commodo et erat at facilisis. Aliquam et malesuada fames ac
+                        non magna velit. Etiam sit amet ex nisi. Interdum et malesuada fames ac
+                        ante ipsum primis in faucibus. Morbi a lacinia lectus. Pellentesque sit
+                        amet massa vehicula, porta diam in, sodales ex. Donec justo leo,
+                        fermentum vitae ipsum a, hendrerit laoreet urna. Ut tincidunt enim eget
+                        semper luctus. Proin sollicitudin enim id nisi rhoncus, nec varius quam
+                        pulvinar. Curabitur eleifend placerat enim quis rhoncus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
